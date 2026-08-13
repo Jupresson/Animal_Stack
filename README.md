@@ -1,117 +1,117 @@
 # 🐾 Animal Stack
 
-**Animal Stack** on fysiikkapohjainen mobiili-AR-peli, jossa tavoite on yksinkertainen:  
-pinot mahdollisimman monta eläintä aloitusalustalle ilman, että yksikään tippuu reunan yli.
+**Animal Stack** is a physics-based mobile AR game with one simple goal:  
+stack as many animals as possible on the starting platform without letting any of them fall off the edge.
 
-Leikkisä safari-/eläintarhateema yhdistyy taitopohjaiseen tasapainotteluun, jossa jokainen pudotus ratkaisee.
-
----
-
-## 🎮 Pelin perusidea
-
-- **Nimi:** Animal Stack  
-- **Genre:** Fysiikkapohjainen AR stacker / skill puzzle  
-- **Tavoite:** Pinota eläimiä mahdollisimman paljon aloitusalustalle  
-- **Häviöehto:** Peli päättyy heti, kun yksi tai useampi eläin putoaa alustan ulkopuolelle  
-- **Pisteytys:** Pisteet = onnistuneesti pinottujen eläinten määrä
-
-### Mikä tekee pelistä kiinnostavan?
-
-- Jokainen eläin on eri muotoinen ja painopisteeltään erilainen  
-  (esim. pitkä kirahvi vs. matala/pyöreä kilpikonna)
-- Pelaaja päättää **sekä sijainnin että rotaation** ennen pudotusta
-- Fysiikka ratkaisee lopputuloksen: hyvä arviointi palkitaan, huono arvio kaataa pinon
+A playful safari/zoo theme meets skill-based balance gameplay where every drop matters.
 
 ---
 
-## 🧠 Peliloop (ydinsilmukka)
+## 🎮 Core Game Idea
 
-1. Pelaaja tunnistaa pinnan (pöytä/lattia)  
-2. Aloitusalusta asetetaan AR-ympäristöön  
-3. Seuraava eläin näkyy esikatseluna pinon yllä  
-4. Pelaaja vetää eläimen haluttuun kohtaan  
-5. Pelaaja kiertää eläimen haluttuun kulmaan  
-6. Eläin pudotetaan  
-7. Fysiikka ratkaisee tasapainon  
-8. Jos kaikki pysyy alustalla → **+1 piste** ja uusi eläin  
-9. Jos eläin tippuu alustan ulkopuolelle → **Game Over**
+- **Name:** Animal Stack  
+- **Genre:** Physics-based AR stacker / skill puzzle  
+- **Goal:** Stack as many animals as possible on the starting platform  
+- **Lose Condition:** The game ends immediately when one or more animals fall outside the platform  
+- **Scoring:** Score = number of successfully stacked animals
 
----
+### What makes it interesting?
 
-## 📱 AR ja mobiilikäyttö
-
-### AR-ratkaisu
-- **AR-tyyppi:** Pintojen tunnistus  
-- **Paikannus:** Ei GPS-vaatimusta  
-- **Miksi AR on tärkeä:** Pelaaja voi liikkua pöydän ympäri ja arvioida pinoa eri kulmista ennen pudotusta
-
-### Ohjaus
-- **Drag:** siirtää eläintä pinon yllä  
-- **Two-finger rotate:** kiertää eläintä  
-- **Release / tap:** pudottaa eläimen  
-- Vaihtoehtona kiertopainikkeet yhden käden pelaamista varten
-
-### UI-ajatukset
-- Yläreunassa iso pistelaskuri  
-- Pieni “seuraava eläin” -esikatselu  
-- Ensimmäiseen peliin lyhyt ohjevihje:
-  - *“Vedä sijoittaaksesi, kierrä kahdella sormella, päästä irti pudottaaksesi.”*
+- Every animal has a different shape and center of mass  
+  (for example, a tall giraffe vs. a low/round turtle)
+- The player chooses **both position and rotation** before dropping
+- Physics decides the result: good judgment is rewarded, bad judgment collapses the stack
 
 ---
 
-## ✅ Ominaisuudet
+## 🧠 Gameplay Loop
 
-### Pakolliset (MVP)
-- [x] Pinnantunnistus + aloitusalustan asetus
-- [x] Eläimen veto- ja rotaatiohallinta
-- [x] Fysiikkapohjainen pinoutuminen
-- [x] Häviöehdon tunnistus (putoaminen alustalta)
-- [x] Pistelaskuri
-
-### Lisäominaisuudet (jatkoon)
-- [ ] Useita eläinmalleja eri muodoilla/koolla
-- [ ] Äänitehosteet
-- [ ] Heilunta- ja reaktiiviset animaatiot
-- [ ] Kasvava vaikeustaso / ajastin
-- [ ] Tulostaulukko
-- [ ] Bonuspisteet erityisen vakaasta pinoamisesta
+1. The player detects a surface (table/floor)  
+2. The starting platform is placed in AR  
+3. The next animal appears as a preview above the stack  
+4. The player drags the animal to the desired position  
+5. The player rotates the animal to the desired angle  
+6. The animal is dropped  
+7. Physics resolves the balance  
+8. If everything stays on the platform → **+1 point** and a new animal  
+9. If an animal falls outside the platform → **Game Over**
 
 ---
 
-## 🛡️ Turvallisuus ja testattavuus
+## 📱 AR and Mobile Experience
 
-- Pelataan paikallaan, mielellään istuen pöydän ääressä  
-- Toimii noin **50 × 50 cm** pöytätilassa  
-- Testattavissa helposti luokkahuoneessa tai kotona  
-- Ei vaadi kävelyä näyttöön tuijottaen → turvallisempi AR-kokemus
+### AR approach
+- **AR Type:** Surface detection  
+- **Positioning:** No GPS required  
+- **Why AR matters:** The player can move around the table and evaluate the stack from different angles before dropping
+
+### Controls
+- **Drag:** move the animal above the stack  
+- **Two-finger rotate:** rotate the animal  
+- **Release / tap:** drop the animal  
+- Optional rotation buttons are available for one-handed play
+
+### UI ideas
+- Large score counter at the top  
+- Small “next animal” preview  
+- Short tutorial hint in the first run:
+  - *“Drag to place, rotate with two fingers, release to drop.”*
 
 ---
 
-## 🧰 Tekniikka
+## ✅ Features
 
-- **Moottori:** Unity  
-- **Unity-versio:** `6000.5.8f1`  
+### Required (MVP)
+- [x] Surface detection + platform placement
+- [x] Animal drag and rotation controls
+- [x] Physics-based stacking
+- [x] Lose-condition detection (falling outside platform)
+- [x] Score counter
+
+### Extra features (future)
+- [ ] Multiple animal models with different shapes/sizes
+- [ ] Sound effects
+- [ ] Swaying and reactive animations
+- [ ] Increasing difficulty / timer
+- [ ] Leaderboard
+- [ ] Bonus points for especially stable stacking
+
+---
+
+## 🛡️ Safety and Testability
+
+- Played while stationary, ideally seated at a table  
+- Works in roughly **50 × 50 cm** of table space  
+- Easy to test in classrooms or at home  
+- No need to walk while staring at the screen → safer AR experience
+
+---
+
+## 🧰 Technology
+
+- **Engine:** Unity  
+- **Unity Version:** `6000.5.8f1`  
 - **AR:** AR Foundation + ARCore + ARKit  
-- **Renderöinti:** URP
+- **Rendering:** URP
 
-> Tarkemmat paketit löytyvät tiedostosta:  
+> Detailed package list is available in:  
 > `/home/runner/work/Animal_Stack/Animal_Stack/Packages/manifest.json`
 
 ---
 
-## 🚀 Kehitysstatus
+## 🚀 Development Status
 
-Repository sisältää tällä hetkellä Unity-AR-pohjan, jonka päälle Animal Stackin varsinainen pelilogiikka rakennetaan.
+The repository currently contains a Unity AR foundation on top of which the full Animal Stack gameplay will be built.
 
-Seuraavat käytännön stepit:
-1. Rakennetaan yksi selkeä peliskenaario (single scene flow)  
-2. Lisätään spawn/esikatselu + drag/rotate/drop -putki  
-3. Toteutetaan häviöehto ja score loop  
-4. Viimeistellään UI + äänet + lisäeläimet
+Next practical steps:
+1. Build one clear gameplay scenario (single scene flow)  
+2. Add spawn/preview + drag/rotate/drop pipeline  
+3. Implement lose condition and score loop  
+4. Polish UI + sounds + extra animals
 
 ---
 
-## 📌 Vision ydin
+## 📌 Core Vision
 
-**Helppo aloittaa, vaikea mestaroida.**  
-Yksi eläin kerrallaan, yksi virhe kerrallaan – kuinka korkealle pinosi kestää?
+**Easy to start, hard to master.**  
+One animal at a time, one mistake at a time — how high can your stack survive?
