@@ -533,8 +533,8 @@ MonoBehaviour:
   m_PlaneClassificationsList: 
   m_PlaneClassifications: 0
   m_UseInteractorOrientation: 0
-  m_MinScale: 0.25
-  m_MaxScale: 2
+  m_MinScale: 0.1
+  m_MaxScale: 1.2
   m_ScaleSensitivity: 0.75
   m_Elasticity: 0.15
   m_EnableElasticBreakLimit: 1
