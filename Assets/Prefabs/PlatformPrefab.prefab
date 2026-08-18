@@ -259,15 +259,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2826292952382065613, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2826292952382065613, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2826292952382065613, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2826292952382065613, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
       propertyPath: m_LocalPosition.x
@@ -319,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7245160351360236818, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
       propertyPath: m_Name
-      value: PlatformModel
+      value: PlatformPrefab
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -4036725360810217012, guid: 12abe1b0aa5f9e24cbebce1da3129385, type: 3}
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_PlaneClassifications: 0
   m_UseInteractorOrientation: 0
   m_MinScale: 0.1
-  m_MaxScale: 0.7
+  m_MaxScale: 0.3
   m_ScaleSensitivity: 0.5
   m_Elasticity: 0.15
   m_EnableElasticBreakLimit: 1
