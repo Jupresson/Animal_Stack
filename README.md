@@ -1,4 +1,4 @@
-# 🐾 Animal Stack
+# Animal Stack
 
 **Animal Stack** is a physics-based mobile AR game with one simple goal:  
 stack as many animals as possible on the starting platform without letting any of them fall off the edge.
@@ -7,7 +7,7 @@ A playful safari/zoo theme meets skill-based balance gameplay where every drop m
 
 ---
 
-## 🎮 Core Game Idea
+## Core Game Idea
 
 - **Name:** Animal Stack  
 - **Genre:** Physics-based AR stacker / skill puzzle  
@@ -24,7 +24,7 @@ A playful safari/zoo theme meets skill-based balance gameplay where every drop m
 
 ---
 
-## 🧠 Gameplay Loop
+## Gameplay Loop
 
 1. The player detects a surface (table/floor)  
 2. The starting platform is placed in AR  
@@ -38,7 +38,7 @@ A playful safari/zoo theme meets skill-based balance gameplay where every drop m
 
 ---
 
-## 📱 AR and Mobile Experience
+## AR and Mobile Experience
 
 ### AR approach
 - **AR Type:** Surface detection  
@@ -78,7 +78,7 @@ A playful safari/zoo theme meets skill-based balance gameplay where every drop m
 
 ---
 
-## 🛡️ Safety and Testability
+## Safety and Testability
 
 - Played while stationary, ideally seated at a table  
 - Works in roughly **50 × 50 cm** of table space  
@@ -87,31 +87,16 @@ A playful safari/zoo theme meets skill-based balance gameplay where every drop m
 
 ---
 
-## 🧰 Technology
+## Technology
 
 - **Engine:** Unity  
 - **Unity Version:** `6000.5.8f1`  
 - **AR:** AR Foundation + ARCore + ARKit  
 - **Rendering:** URP
 
-> Detailed package list is available in:  
-> `/home/runner/work/Animal_Stack/Animal_Stack/Packages/manifest.json`
-
 ---
 
-## 🚀 Development Status
-
-The repository currently contains a Unity AR foundation on top of which the full Animal Stack gameplay will be built.
-
-Next practical steps:
-1. Build one clear gameplay scenario (single scene flow)  
-2. Add spawn/preview + drag/rotate/drop pipeline  
-3. Implement lose condition and score loop  
-4. Polish UI + sounds + extra animals
-
----
-
-## 📌 Core Vision
+## Core Vision
 
 **Easy to start, hard to master.**  
 One animal at a time, one mistake at a time — how high can your stack survive?
