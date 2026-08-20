@@ -104,6 +104,10 @@ PrefabInstance:
       propertyPath: m_ObjectPlaneTranslationMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6468247973571333618, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LinearDamping
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6909000297785399691, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
       propertyPath: m_Convex
       value: 1

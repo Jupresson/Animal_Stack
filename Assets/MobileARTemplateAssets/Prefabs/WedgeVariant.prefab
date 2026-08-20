@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WedgeVariant
       objectReference: {fileID: 0}
+    - target: {fileID: 6091692148682916444, guid: 51f8c8c1205824bcf8fec9805e0312a3, type: 3}
+      propertyPath: m_LinearDamping
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6091692148682916445, guid: 51f8c8c1205824bcf8fec9805e0312a3, type: 3}
       propertyPath: m_Enabled
       value: 0

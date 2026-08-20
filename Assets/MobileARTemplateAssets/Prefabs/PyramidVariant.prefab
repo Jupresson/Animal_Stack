@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_AffordanceThemeDatum.m_Variable
       value: 
       objectReference: {fileID: 11400000, guid: 1e7f6f70c50e3864789127de6b014097, type: 2}
+    - target: {fileID: 7109682686697656314, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
+      propertyPath: m_LinearDamping
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7109682686697656316, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

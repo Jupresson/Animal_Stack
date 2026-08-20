@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6658903472718292055, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LinearDamping
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8090914221370063561, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_ColorPropertyName
       value: _BaseColor

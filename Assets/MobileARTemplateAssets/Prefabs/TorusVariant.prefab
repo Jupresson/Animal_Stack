@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 303917937209359619, guid: 8ae99c55d89c449b4be74f60dc81e02b, type: 3}
+      propertyPath: m_LinearDamping
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 985209688494614905, guid: 8ae99c55d89c449b4be74f60dc81e02b, type: 3}
       propertyPath: m_ColorPropertyName
       value: _BaseColor
