@@ -12,6 +12,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 83eabfe673263a445972586e5d8b56ee, type: 2}
+    - target: {fileID: 2528954676036292133, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528954676036292133, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2528954676036292133, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392718969515433994, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392718969515433994, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392718969515433994, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 5811970893536397571, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_Name
       value: ArchVariant
@@ -77,8 +101,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_MaxScale
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_MinScale
-      value: 0.3
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_ObjectPlaneTranslationMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -8,6 +8,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2180664787959293527, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180664787959293527, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180664787959293527, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368844185009992940, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368844185009992940, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368844185009992940, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 4183465048131118092, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -57,8 +81,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1e7f6f70c50e3864789127de6b014097, type: 2}
     - target: {fileID: 6343057197543294938, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343057197543294938, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_MaxScale
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343057197543294938, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
       propertyPath: m_MinScale
-      value: 0.3
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6343057197543294938, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
+      propertyPath: m_ObjectPlaneTranslationMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6909000297785399691, guid: cec25213e5ba74da1ae7d3e2036e000d, type: 3}
       propertyPath: m_Convex
