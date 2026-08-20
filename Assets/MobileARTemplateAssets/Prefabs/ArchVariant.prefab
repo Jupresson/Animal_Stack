@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.06
       objectReference: {fileID: 0}
+    - target: {fileID: 2672427966464094747, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5392718969515433994, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.06
@@ -80,6 +84,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6658903472718292054, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8090914221370063561, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_ColorPropertyName
       value: _BaseColor
@@ -102,7 +110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9094225196428312524, guid: 13241d599ff10413498d04c6d683ca10, type: 3}
       propertyPath: m_MaxScale

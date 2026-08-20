@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 408817791868583526, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 408817791868583526, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
       propertyPath: m_MaxScale
@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7109682686697656317, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7109682686697656319, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
       propertyPath: m_Name
       value: PyramidVariant
@@ -107,6 +111,10 @@ PrefabInstance:
     - target: {fileID: 7981215738929229098, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.060000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817181984331405715, guid: 5642b79498b10465fa9219ba4682355b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
